@@ -1,0 +1,229 @@
+@font-face {
+    font-family: '__PF Din Text Universal_5';
+    src: url('../fonts/pfdintextuniversal-regular.eot');
+    src: url('../fonts/pfdintextuniversal-regular.woff') format('woff'), url('../fonts/pfdintextuniversal-regular.svg') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '__Panton_5';
+    src: url('../fonts/panton%20semibold.eot');
+    src: url('../fonts/panton%20semibold.woff') format('woff'), url('../fonts/panton%20semibold.svg') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '__Muller_5';
+    src: url('../fonts/fontfabric%20-%20mullermedium.eot');
+    src: url('../fonts/fontfabric%20-%20mullermedium.woff') format('woff'), url('../fonts/fontfabric%20-%20mullermedium.svg') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '__PF Din Text Universal_5';
+    src: url('../fonts/pfdintextuniversal-thin.eot');
+    src: url('../fonts/pfdintextuniversal-thin.woff') format('woff'), url('../fonts/pfdintextuniversal-thin.svg') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '__PF Din Text Universal_5';
+    src: url('../fonts/pfdintextuniversal-light.eot');
+    src: url('../fonts/pfdintextuniversal-light.woff') format('woff'), url('../fonts/pfdintextuniversal-light.svg') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '__PF Din Text Universal_5';
+    src: url('../fonts/pfdintextuniversal-medium.eot');
+    src: url('../fonts/pfdintextuniversal-medium.woff') format('woff'), url('../fonts/pfdintextuniversal-medium.svg') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '__Panton_5';
+    src: url('../fonts/panton.eot');
+    src: url('../fonts/panton.woff') format('woff'), url('../fonts/panton.svg') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '__Panton_5';
+    src: url('../fonts/panton%20bold.eot');
+    src: url('../fonts/panton%20bold.woff') format('woff'), url('../fonts/panton%20bold.svg') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.border {
+    border-style: solid;
+    border-width: 20px;
+    border-color: #FFFFFF;
+}
+
+
+  .row {
+      position: relative;
+  }
+
+
+.vertical {
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    white-space: nowrap;
+    line-height: 23px;
+    font-size: 19px;
+    text-align: right;
+    font-family: '__Panton_5';
+    display: block;
+    width: 100%;
+    font-weight: 700;
+}
+.vertical:before {
+    width: 155px;
+    height: 1px;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 11px;
+    right: -410px;
+}
+
+
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+.modal-backdrop.in {
+    opacity: 0.9;
+}
+
+.nopadding {
+    padding: 0;
+}
+.bottom-align-text {
+    position: absolute;
+    top: 454px;
+    left: -15px;
+}
+
+.grey_title {
+    color: #7F7F7F;
+}
+
+.yel_line .vertical:before {
+    background-color: #CEB9A4;
+}
+
+
+input[type="text"],input[type="textarea"] {
+    min-height: 35px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #484848;
+    background-color: #484848;
+    line-height: 32px;
+    font-size: 16px;
+    color: #c3c3c1;
+    font-family: '__PF Din Text Universal_5';
+    font-weight: 400;
+    position: relative;
+    padding: 9px 6px 7px 15px;
+    width: 100%;
+    margin-bottom: 27px;
+    border-radius: 0;
+}
+
+input[type="submit"] {
+    -webkit-transition-duration: 1s;
+    -webkit-transition-delay: 0s;
+    -webkit-transition-timing-function: ease;
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transition-timing-function: ease;
+    background-color: #CDB8A5;
+    line-height: 15px;
+    font-size: 15px;
+    color: #323232;
+    text-align: center;
+    font-family: '__PF Din Text Universal_5';
+    font-weight: 500;
+    width: 100%;
+    padding: 21px;
+    border: none;
+    margin: 0;
+    border-radius: 0;
+}
+
+input[type="text"], input[type="textarea"], input[type="submit"] {
+    outline: none;
+}
+input[type="textarea"] {
+    height: 80px;
+}
+
+input[type="text"]:focus, input[type="textarea"]:focus,input[type="text"]:active, input[type="textarea"]:active {
+    background: #fff;
+    border-color: #fff;
+}
+
+.clientel {
+    margin: 94px 0 0 0;
+    background-color: #484848;
+    width: 327px;
+    height: 58px;
+    background-image: url(http://energy-scooter.ru/images/clientel.png);
+    background-position: 20px 15px;
+    background-repeat: no-repeat;
+}
+.clientel:hover {
+    background-color: #3f3e3e;
+}
+.messages {
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+}
+
+
+@media screen and (max-width:991px) {
+
+
+.col-md-1 {
+    display: none;
+}
+.vertical {
+    display: none;
+}
+}
+
+input[type="submit"]:hover {
+    border-color: #999999;
+    background-color: #736357;
+    text-decoration: none;
+}
+.navbar {
+    background: #1c1c1c;
+}
